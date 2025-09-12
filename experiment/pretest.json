@@ -1,39 +1,52 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "The senders window in the sliding window protocol can expand when:",
+    "answers": {
+      "a": "An ACK is received",
+      "b": "An ACK is sent",
+      "c": "A frame is sent",
+      "d": "A frame is received"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the _________ protocol we avoid unnecessary transmission by sending only frames that are corrupted.",
+    "answers": {
+      "a": "Stop and wait",
+      "b": "Go Back N",
+      "c": "Selective Repeat",
+      "d": "All of the above"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In Selective Repeat ARQ, if 5 is the number of bits for the sequence number, then the maximum size of the receive window must be _____.",
+    "answers": {
+      "a": "1",
+      "b": "15",
+      "c": "16",
+      "d": "31"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In Selective Repeat ARQ, the size of the sender and receiver window must be at most:",
+    "answers": {
+      "a": "One half of 2^m",
+      "b": "Twice of 2^m",
+      "c": "Exactly 2^m",
+      "d": "None of the above"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In Selective Repeat Window size = 5 and we are sending 10 packets where every 5th packet is lost find number of retransmissions?",
+    "answers": {
+      "a": "12",
+      "b": "11",
+      "c": "13",
+      "d": "10"
+    },
+    "correctAnswer": "a"
+  }
+]

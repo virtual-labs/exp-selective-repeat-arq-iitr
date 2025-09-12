@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### To simulate and to study Selective Repeat Protocol.

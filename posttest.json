@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following is the efficiency of Selective Repeat ARQ with Ws=N?",
+    "answers": {
+      "a": "2N/(1+2a) where a = Tₚ / Tₜ",
+      "b": "N/(1+2a) where a = Tₚ / Tₜ",
+      "c": "N/(1+2a) where a = Tₜ / Tₚ",
+      "d": "2N/(1+2a) where a = Tₜ / Tₚ"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In selective repeat what is the number of retransmissions in case of packet drop Ws=N?",
+    "answers": {
+      "a": "N",
+      "b": "1",
+      "c": "N-1",
+      "d": "N-1/2"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Selective Repeat uses a?",
+    "answers": {
+      "a": "Sliding frame",
+      "b": "Sliding packet",
+      "c": "Sliding window",
+      "d": "Sliding Session"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "NAK frames are not numbered in:",
+    "answers": {
+      "a": "Go Back N ARQ",
+      "b": "Stop and Wait ARQ",
+      "c": "Selective Repeat ARQ",
+      "d": "All of the above"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is not a flow control technique?",
+    "answers": {
+      "a": "Stop-and-Wait ARQ",
+      "b": "CRC",
+      "c": "Go-Back-N-ARQ",
+      "d": "Selective-Repeat-ARQ"
+    },
+    "correctAnswer": "b"
+  }
+]
